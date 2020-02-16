@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-16T15:00:22.639Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36" etag="e_g49he168ZJunF2BOUq" version="12.7.0" type="github">
+<mxfile host="www.draw.io" modified="2020-02-16T15:19:47.690Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36" etag="j8KA2qADPsX2i8E00gvF" version="12.7.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -287,7 +287,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FqXf1TU0Tz_ZIfCKbDEV-109" value="关联关系Association" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="60" y="90" width="120" height="20" as="geometry"/>
+          <mxGeometry x="65" y="90" width="120" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="FqXf1TU0Tz_ZIfCKbDEV-110" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
@@ -295,8 +295,8 @@
             <mxPoint x="240" y="200" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FqXf1TU0Tz_ZIfCKbDEV-111" value="聚合关系Relation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="70" y="170" width="110" height="20" as="geometry"/>
+        <mxCell id="FqXf1TU0Tz_ZIfCKbDEV-111" value="聚合关系Aggregation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="65" y="170" width="130" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="FqXf1TU0Tz_ZIfCKbDEV-112" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
@@ -305,7 +305,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FqXf1TU0Tz_ZIfCKbDEV-113" value="合成（组合）关系Composition" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="50" y="256" width="180" height="20" as="geometry"/>
+          <mxGeometry x="40" y="256" width="180" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="FqXf1TU0Tz_ZIfCKbDEV-114" value="A继承B" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -333,6 +333,18 @@
         </mxCell>
         <mxCell id="FqXf1TU0Tz_ZIfCKbDEV-122" value="B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="244.5" y="350" width="20" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="FqXf1TU0Tz_ZIfCKbDEV-123" value="has-a关系，持有/拥有的意思。如：人-车" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=middle;align=left;spacingTop=-6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="254" y="170" width="126" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="FqXf1TU0Tz_ZIfCKbDEV-124" value="part-of关系，什么的一部分的意思。如：人-手" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=middle;align=left;spacingTop=-6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="254" y="256" width="126" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="FqXf1TU0Tz_ZIfCKbDEV-125" value="如：人-氧气" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=middle;align=left;spacingTop=-6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="254" y="10" width="126" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="FqXf1TU0Tz_ZIfCKbDEV-126" value="如：企鹅-气候" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=middle;align=left;spacingTop=-6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="254" y="90" width="126" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
