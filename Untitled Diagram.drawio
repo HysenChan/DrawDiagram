@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-04-09T10:16:09.936Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="cwe9vY3-sZ7zRg0CjtT_" version="12.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-09T10:22:31.982Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="gdEP0aw0sPMLt7IZT7A0" version="12.9.6" type="github">
   <diagram id="cQuPXXQZApBrQM8GXaEX" name="毕业设计相关">
-    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1808" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -778,6 +778,105 @@
         </mxCell>
         <mxCell id="AzvYmCh7wC9eug3Tn16J-138" value="骑兵状态变化：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-65" y="4060" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-152" value="巫师状态变化：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="370" y="4060" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="AzvYmCh7wC9eug3Tn16J-156" source="AzvYmCh7wC9eug3Tn16J-165">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550.75" y="4175" as="sourcePoint" />
+            <mxPoint x="550.75" y="4255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-154" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AzvYmCh7wC9eug3Tn16J-156" target="AzvYmCh7wC9eug3Tn16J-158">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550.75" y="4335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-155" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;entryX=1.002;entryY=0.42;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AzvYmCh7wC9eug3Tn16J-156" target="AzvYmCh7wC9eug3Tn16J-165">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585.75" y="4160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="666" y="4230" />
+              <mxPoint x="666" y="4163" />
+              <mxPoint x="588" y="4163" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-156" value="&lt;span style=&quot;white-space: normal&quot;&gt;是否到达攻击目标距离&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="473.25" y="4205" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-157" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="AzvYmCh7wC9eug3Tn16J-158" target="AzvYmCh7wC9eug3Tn16J-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-158" value="攻击状态" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="513.25" y="4285" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-159" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="628.25" y="4205" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AzvYmCh7wC9eug3Tn16J-162" target="AzvYmCh7wC9eug3Tn16J-158">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="683.25" y="4375" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="665.75" y="4375" />
+              <mxPoint x="665.75" y="4300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AzvYmCh7wC9eug3Tn16J-162" target="AzvYmCh7wC9eug3Tn16J-165">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515.75" y="4160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="454" y="4375" />
+              <mxPoint x="454" y="4165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-162" value="目标是否死亡" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="498.25" y="4355" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-163" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="603.25" y="4355" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-164" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="465.75" y="4355" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-165" value="奔跑状态" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="518.25" y="4150" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AzvYmCh7wC9eug3Tn16J-166" target="AzvYmCh7wC9eug3Tn16J-169">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="553" y="4110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-166" value="召唤骷髅状态" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="506.87" y="4040" width="91.26" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-169" value="是否召唤成功" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="502.5" y="4090" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-173" value="" style="endArrow=classic;html=1;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AzvYmCh7wC9eug3Tn16J-169" target="AzvYmCh7wC9eug3Tn16J-165">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="4180" as="sourcePoint" />
+            <mxPoint x="450" y="4130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-174" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="525.63" y="4130" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-175" value="" style="endArrow=classic;html=1;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AzvYmCh7wC9eug3Tn16J-169" target="AzvYmCh7wC9eug3Tn16J-166">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="4180" as="sourcePoint" />
+            <mxPoint x="450" y="4130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="4110" />
+              <mxPoint x="630" y="4050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AzvYmCh7wC9eug3Tn16J-176" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="590" y="4090" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
