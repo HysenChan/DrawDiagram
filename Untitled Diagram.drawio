@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-02T12:29:00.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="ZBSDAr8dR5so9l2azzr2" version="13.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-02T12:39:22.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="KZKYmZtwsDCZISAj6UjR" version="13.0.1" type="github">
   <diagram id="cQuPXXQZApBrQM8GXaEX" name="毕业设计相关">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -931,6 +931,54 @@
         </mxCell>
         <mxCell id="uAHHgz1LdO6VP773RAtd-14" value="玩家输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1110" y="470" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uAHHgz1LdO6VP773RAtd-15" value="主界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="530" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAHHgz1LdO6VP773RAtd-16" value="游戏界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="530" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAHHgz1LdO6VP773RAtd-17" value="结算界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="530" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAHHgz1LdO6VP773RAtd-18" value="商店界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1228" y="530" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAHHgz1LdO6VP773RAtd-19" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="570" as="sourcePoint" />
+            <mxPoint x="1340" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAHHgz1LdO6VP773RAtd-20" value="View" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="535" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uAHHgz1LdO6VP773RAtd-21" value="场景管理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="585" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAHHgz1LdO6VP773RAtd-22" value="商店管理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1068" y="585" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAHHgz1LdO6VP773RAtd-23" value="角色管理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1208" y="585" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAHHgz1LdO6VP773RAtd-24" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="630" as="sourcePoint" />
+            <mxPoint x="1340" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAHHgz1LdO6VP773RAtd-25" value="Controller" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="590" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uAHHgz1LdO6VP773RAtd-27" value="地图存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1013" y="650" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAHHgz1LdO6VP773RAtd-28" value="路径存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1133" y="650" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAHHgz1LdO6VP773RAtd-30" value="Model" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="650" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
